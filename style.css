@@ -1,0 +1,56 @@
+head, body {
+    background-color:#5cdb93;
+}
+
+#language {
+    position: relative;
+    top: 100px;
+    left: 600px;
+    background-color: #0A38AD;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    color: white;
+}
+
+.welcome {
+    position: absolute;
+    left: 100px;
+}
+
+.welcome h1 {
+    text-align: left;
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    color: #edf4e0;
+    z-index: 1;
+}
+
+#hotbatataimg {
+    position: absolute;
+    left: 200px;
+    top: 130px;
+    max-width: 75%;
+    max-height: 75%;
+}
+
+.welcome img {
+    position: relative;
+    bottom: 300px;
+    bottom: 200px;
+    max-width: 50%;
+    max-height: 50%;
+    bottom: 300px;
+    left: 50px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #edf4e0;
+
+    margin-top: 0;
+}
