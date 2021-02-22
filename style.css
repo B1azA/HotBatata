@@ -30,6 +30,25 @@ body {
     width: 55px;
 }
 
+#language {
+    float: right;
+    background: none;
+    margin: 17px 15px 0px 0px;
+    border: none;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#language:focus {
+    outline: none;
+}
+
+#language:hover {
+    background: #e27d5f;
+}
+
 nav ul {
     margin: 0px;
     list-style-type: none;
@@ -62,17 +81,34 @@ nav a {
     width: 960px;
 }
 
+#welcome section {
+    position: relative;
+    left: 50px;
+}
+
+#welcome header {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
 #welcome h2 {
     text-align: center;
     font-size: 50px;
-    margin: 50px 0px 0px 0px;
+    margin: 0px 0px 20px 0px;
 }
 
 #welcome h1 {
+    position: absolute;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
     text-align: center;
     font-weight: 900;
-    font-size: 70px;
-    margin: 0px 0px 0px 0px;
+    font-size: 50px;
+    top: 150px;
+    bottom: 0px;
+    left: 30px;
+    margin: 0px 0px 0px 200px;
 }
 
 header {
