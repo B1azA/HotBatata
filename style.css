@@ -1,56 +1,118 @@
-head, body {
-    background-color:#5cdb93;
+body {
+    background-color:#7dc2ad;
+    margin: 73px 0px 0px 0px;
+    font-family: 'Oswald', sans-serif;
+    min-width: 960px;
 }
 
-#language {
-    position: relative;
-    top: 100px;
-    left: 600px;
-    background-color: #0A38AD;
+#logo {
+    background: none;
+    width: 250px;
+    height: 60px;
+    float: left;
+    margin: 7px 0px 0px 20px;
+}
+
+#logo img {
+    width: 25%;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+#logo h1 {
+    margin: 9px 0px 0px 70px;
+}
+
+#logoimg {
+    position: fixed;
+    float: left;
+    margin: 0px 0px 0px 10px;
+    width: 55px;
+}
+
+nav ul {
+    margin: 0px;
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    padding: 0px 25px;
+    margin: 0px 5px;
+    font-size: 17px;
+    height: 73px;
+    line-height: 4.3em;
+}
+
+nav ul li:hover, .active {
+    background: #e27d5f;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.center {
     text-align: center;
-    font-size: 16px;
-    border: none;
-    color: white;
 }
 
-.welcome {
-    position: absolute;
-    left: 100px;
+#welcome {
+    margin: 0px auto;
+    width: 960px;
 }
 
-.welcome h1 {
-    text-align: left;
-    font-size: 80px;
-    font-family: 'Oswald', sans-serif;
+#welcome h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 50px 0px 0px 0px;
+}
+
+#welcome h1 {
+    text-align: center;
     font-weight: 900;
-    color: #edf4e0;
-    z-index: 1;
+    font-size: 70px;
+    margin: 0px 0px 0px 0px;
 }
 
-#hotbatataimg {
-    position: absolute;
-    left: 200px;
-    top: 130px;
-    max-width: 75%;
-    max-height: 75%;
+header {
+    height: 73px;
+    position: fixed;
+    top: 0px;
+    background: #85cdca;
+    width: 100%;
 }
 
-.welcome img {
-    position: relative;
-    bottom: 300px;
-    bottom: 200px;
-    max-width: 50%;
-    max-height: 50%;
-    bottom: 300px;
-    left: 50px;
+article {
+    padding: 30px 0px;
 }
 
-h2 {
-    text-align: left;
-    font-size: 40px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    color: #edf4e0;
-
-    margin-top: 0;
+article header {
+    width: 250px;
+    float: left;
+    position: static;
+    background: none;
 }
+
+article section {
+    width:  666px;
+    float: left;
+    border: none;
+    padding: 20px;
+}
+
+footer {
+    height: 40px;
+    color: white;
+    margin: 20px 0 0 30px;
+}
+
+footer a {
+    color: #e27d5f;
+    text-decoration: none;
+}
+
+.cleaner {
+    clear: both;
+}
+
