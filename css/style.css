@@ -6,6 +6,7 @@ body {
 }
 
 #logo {
+    position: relative;
     background: none;
     width: 250px;
     height: 60px;
@@ -49,12 +50,16 @@ body {
     background: #e27d5f;
 }
 
-nav ul {
+#toppanel {
+    min-width: 800px;
+}
+
+#toppanel nav ul {
     margin: 0px;
     list-style-type: none;
 }
 
-nav ul li {
+#toppanel nav ul li {
     float: left;
     padding: 0px 25px;
     margin: 0px 5px;
@@ -63,11 +68,11 @@ nav ul li {
     line-height: 4.3em;
 }
 
-nav ul li:hover, .active {
+#toppanel nav ul li:hover, .active {
     background: #e27d5f;
 }
 
-nav a {
+#toppanel nav a {
     color: black;
     text-decoration: none;
 }
@@ -152,3 +157,41 @@ footer a {
     clear: both;
 }
 
+#tools-list {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    float: left;
+    top: 50px;
+    margin: 0px;
+    width: 960px;
+}
+
+#tools-list h2 {
+    text-align: left;
+    font-size: 50px;
+    margin:10px 10px 20px 50px;
+}
+
+#tools-list ul{
+    float: left;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#tools-list ul li {
+    border: 3px solid white;
+    width: 300px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 4.3em;
+}
+
+#tools-list a {
+    color: black;
+    text-decoration: none;
+}
+
+#tools-list ul li:hover, #tools-list .active {
+    background: #c38d9d;
+}
