@@ -23,6 +23,7 @@ window.onload = function() {
             toolWindow.appendChild(minP)
             
             min = document.createElement("input")
+            min.style.width = "30%"
             min.style.left = "10%"
             min.style.top = "20%"
             
@@ -35,6 +36,7 @@ window.onload = function() {
             toolWindow.appendChild(maxP)
             
             max = document.createElement("input")
+            max.style.width = "30%"
             max.style.right = "10%"
             max.style.top = "20%"
             
