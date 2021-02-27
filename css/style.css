@@ -5,6 +5,18 @@ body {
     min-width: 960px;
 }
 
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: red;
+}
+
+button:active {
+    background-color: white;
+}
+
 #logo {
     position: relative;
     background: none;
@@ -192,11 +204,12 @@ footer a {
     padding: 0px;
     top: 100px;
     list-style-type: none;
-    background-color: #85cdca;
 }
 
 #tools-list ul li {
     border: 3px solid white;
+    border-radius: 10px;
+    background-color: #85cdca;
     width: 300px;
     text-align: center;
     font-size: 28px;
@@ -227,11 +240,69 @@ footer a {
     background: #c38d9d;
 }
 
+#tools-list ul li:active {
+    background-color: #a86c7e;
+}
+
 #tool-window {
     position: fixed;
-    height: 800px;
-    width: 600px;
-    top: 150px;
-    left: 400px;
+    text-align: center;
+    margin: 100px 50px 50px 400px;
+    height: 75%;
+    width: 50%;
     border: 3px solid black;
+    border-radius: 10px;
+    background: rgba(66, 151, 185, 0.212);
+}
+
+#tool-window p {
+    position: absolute;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+#tool-window .centered {
+    position: relative;
+}
+
+#tool-window input {
+    position: absolute;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#tool-window input:focus {
+    outline: none;
+}
+
+#tool-window button {
+    position: relative;
+    margin: 0;
+    border: none;
+    background-color: #71b9af;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#tool-window button:hover {
+    background-color: #e27d5f;
+}
+
+#tool-window button:active {
+    background-color: #b96248;
+}
+
+.section {
+    width: 90%;
+    word-wrap: break-word;
 }
